@@ -1,0 +1,85 @@
+Esta atividade tem por objetivo desenvolver um sistema simples em Java com interface gráfica que
+atenda às funcionalidades básicas de login, cadastro, e simulação de operações específicas
+relacionadas ao tema do projeto escolhido. O sistema deve usar conceitos fundamentais da
+programação orientada a objetos e armazenar os dados em memória, sem o uso de banco de dados.
+Requisitos:
+1. Login:
+o O sistema deve permitir que o usuário realize login para acessar as funcionalidades.
+o Simule a autenticação com um conjunto fixo de usuários pré-cadastrados no código
+(ex.: "admin"/"123").
+
+2. Cadastro:
+o Implementar a funcionalidade de cadastro de elementos relacionados ao tema do
+projeto (ex.: produtos, alunos, tarefas etc.).
+o Os dados cadastrados devem ser armazenados em memória usando estruturas como
+ArrayList.
+
+3. Funcionalidades Específicas:
+o Implementar operações básicas relacionadas ao tema do projeto (ex.: inserção,
+listagem, ...).
+4. Interface Gráfica:
+o Desenvolver uma interface gráfica usando Java Swing ou JavaFX, que deve incluir:
+▪ Tela de login.
+▪ Tela de cadastro.
+▪ Exibição/listagem de dados cadastrados (Sugestão de uso: jTable).
+
+Pontos fundamentais:
+1. Utilizar Programação Orientada a Objetos, incluindo:
+o Classes e objetos para modelagem de entidades do sistema.
+o Aplicação de herança, composição ou polimorfismo, quando pertinente ao tema.
+2. Estruturas de controle e coleções para manipular os dados em memória.
+3. Implementar validação para situações como:
+o Login inválido.
+o Campos obrigatórios não preenchidos durante o cadastro.
+
+Critérios de Avaliação:
+1. Corretude: O sistema funciona conforme os requisitos estabelecidos.
+2. Qualidade do Código: Boa organização, legibilidade, uso correto de conceitos de POO e boas
+práticas de programação.
+3. Interface Gráfica: A interface deve ser funcional, organizada e de fácil interação.
+4. Documentação: Incluir comentários no código.
+
+Universidade do Estado do Rio de Janeiro
+Instituto de Matemática e Estatística
+Linguagem de Programação II
+Prof.a PRISCILLA FONSECA DE ABREU BRAZ
+
+Entrega e Apresentação:
+• Prazo de entrega: 06/01/2025
+• Forma de Entrega: Enviar o código-fonte compactado pelo AVA.
+• Apresentação: Cada grupo/aluno deverá demonstrar o sistema funcionando em sala de aula,
+explicando como a implementação foi realizada.
+• Data da apresentação: 07 e 09/01/25
+• Equipe: o trabalho pode ser feito em dupla ou trio.
+• Valor: 3,0 pontos
+
+OBS.:
+Considere o exemplo a seguir para ter como base do que deve ser feito com relação ao cadastro e
+listagem. O exemplo abaixo é meramente ilustrativo, não está relacionado ao seu tema.
+
+
+
+
+
+
+Considere que você faz parte de uma equipe de desenvolvimento e esteja responsável pela
+implementação de um sistema de gerenciamento de eventos acadêmicos para estudantes
+universitários. Nesse momento, o foco será na funcionalidade de cadastro de um participante.
+Para isso, você deve:
+a. Criar um projeto seguindo o padrão MVC, com a estrutura de pacotes adequada;
+b. Projetar a classe para representação da tela de login (LoginGUI);
+
+c. Projetar a classe para representação da tela de cadastro (ParticipanteGUI), com os
+campos Nome, matricula, curso e evento (dentre uma lista de eventos), similar ao
+exemplo abaixo:
+
+d. Documentar todas as classes utilizando JavaDoc.
+e. Definir a classe que representa o modelo de um Participante.
+f. Implementar a validação dos campos para a tela de login (considere login -> “aluno” e
+senha -> “2024” a partir do campo “ENTRAR” e o possível acesso à tela de Cadastro.
+Implemente também a ação do botão “LIMPAR”.
+g. Na tela de cadastro, ao clicar no botão “limpar”, todos os campos devem ficar vazios
+e ao clicar no botão “ENVIAR”, os campos devem ser validados quanto ao
+preenchimento. Estando todos os campos preenchidos, a aplicação deve exibir a
+mensagem “DADOS CADASTRADOS COM SUCESSO!” utilizando uma caixa de diálogo
+e apresentar os dados cadastrados dos participantes no JTable.
