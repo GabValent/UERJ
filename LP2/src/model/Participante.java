@@ -1,5 +1,9 @@
 package model;
 
+/**
+ * Modelo para representar um participante de um evento.
+ */
+
 public class Participante {
 
 	private String nome;
